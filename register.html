@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script type="text/javascript">
+        function validate(){
+            alert("welcome to obul register page")
+        }
+    </script>
+</head>
+<body>
+    <form id="f1">
+        <table align="center" border="1">
+            <td colspan="2" align="center"><h3>Signup</h3></td>
+            <tr>
+            <td>Name</td>
+            <td><input type="text" id="Name" name="Name" placeholder="Name"/></td>
+            </tr>
+
+            <tr>
+                <td class="mystyle">Roll No</td>
+                <td><input type='text' id='rollno' name='rollno' placeholder="Roll No"/></td>
+            </tr> 
+            <tr>
+                <td>User Name</td>
+                <td><input type='text' id='username' name='username' placeholder="User Name"/></td>
+            </tr> 
+            <tr>
+                <td class="external">Password</td>
+                <td><input type='text' id='password' name='password' placeholder="Password"/></td>
+            </tr> 
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type='text' id='cpassword' name='cpassword' placeholder="Confirm Password"/></td>
+            </tr> 
+            <tr>
+                <td>Branch</td>
+                <td><input type='text' id='branch' name='branch' placeholder="Branch"/></td>
+            </tr> 
+            <tr>
+                <td>Email Id</td>
+                <td><input type='text' id='email' name='email' placeholder="Email Id"/></td>
+            </tr> 
+            <tr>
+                <td>Contact</td>
+                <td><input type='text' id='contact' name='contact' placeholder="Contact No"/></td>
+            </tr> 
+
+            <tr>
+                <td class="mystyle">Address</td>
+                <td>
+                    <textarea id="address" name="address" rows="5"></textarea>
+                
+                </td>
+            </tr> 
+
+            <tr>
+                <td align="right"><input type="button" id="button" name="button" value="Register" onclick="validate()"></td>
+
+                <td align="left"><input type="button" id="clear" name="clear" value="clear">
+            </tr>
+
+
+        </table>
+    </form>
+    
+</body>
+</html>
